@@ -1,7 +1,7 @@
 # Create React App with reduxjs toolkit
 
-simple create-react-app with the usage of redux toolkit
-the app fetches 10 entries from https://api.github.com/users which can be removed
+Simple create-react-app with the usage of redux toolkit
+The app fetches 10 entries from https://api.github.com/users which can be removed by the user. It features a home and a users page for this purpose.
 
 ## Available Scripts
 
