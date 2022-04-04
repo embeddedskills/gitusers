@@ -53,9 +53,11 @@ const Users = () => {
           {users.map((user) => (
             <User
               key={user.id}
-              id={user.id}
-              name={user.login}
-              avatar={user.avatar_url}
+              list={{
+                id: user.id,
+                name: user.login,
+                avatar:user.avatar_url,
+              }}
             />
           ))
           }

@@ -28,10 +28,10 @@ const Img = styled.img`
 const User = (props) => {
     const dispatch = useDispatch();
     
-    const { id, name,avatar } = props;
+    const { id, name,avatar } = props.list;
 
     const deleteUserHandler = () => {
-        dispatch(deleteUser(props.id));
+        dispatch(deleteUser(id));
     };
     
     return(
