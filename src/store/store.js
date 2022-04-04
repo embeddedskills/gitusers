@@ -37,12 +37,8 @@ export const getUserData = (limit) => {
         if (!response.ok) {
           throw new Error('Fetching data failed.');
         }
-          console.log(response);
 
         const data = await response.json();
-
-            console.log(data);
-
         return data;  
       };
   

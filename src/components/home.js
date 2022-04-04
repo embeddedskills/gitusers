@@ -2,25 +2,25 @@ import React from "react";
 import styled from 'styled-components';
 import { NavLink } from "react-router-dom";
   
+const HomeWrapper = styled.div`
+    padding:100px;
+    background:#fff5e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`;
+
+const Button = styled.button`
+    width: 200px;
+    height: 51px;
+    background: teal;
+    box-shadow: 5px 4px #332e4a;
+    border: none;
+    cursor: pointer;    
+`;
+
 const Home = () => {
-
-    const HomeWrapper = styled.div`
-        padding:100px;
-        background:#fff5e2;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    `;
-
-    const Button = styled.button`
-        width: 200px;
-        height: 51px;
-        background: teal;
-        box-shadow: 5px 4px #332e4a;
-        border: none;
-        cursor: pointer;    
-    `;
 
     return (
         <HomeWrapper>
